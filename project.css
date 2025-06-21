@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+
+  font-size: 11px;
+  color: #333;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  background-color: blue;
+  margin: 15px;
+  padding: 0px;
+}
+
+.cot1 {
+  display: grid;
+  grid-template-rows: 1fr 0.5fr;
+  width: 50%;
+  margin: 15px;
+  padding: 0px;
+  background-color: blue;
+}
+
+.cot2 {
+  display: grid;
+  grid-template-rows: 1fr 0.5fr;
+  width: 25%;
+  padding: 0px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  background-color: blue;
+}
+.cot3 {
+  display: grid;
+
+  width: 25%;
+  margin: 15px;
+  background-color: #f4f4f4;
+  padding: 15px;
+}
+.goals-team {
+  display: grid;
+
+  padding: 15px;
+  background-color: #f4f4f4;
+}
+.scopes-primary {
+  display: grid;
+  background-color: #f4f4f4;
+  margin-top: 15px;
+  padding: 25px;
+}
+
+.p1 {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 5px;
+}
+.p {
+  display: grid;
+  grid-template-columns: 0.5fr 3fr;
+  padding: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 0px;
+  border-bottom: 0.1px solid rgb(189, 184, 184);
+}
+.p2 {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+  display: grid;
+  grid-template-columns: 0.5fr 3fr;
+  padding-right: 2rem;
+  padding-left: 1rem;
+}
+.textp2 {
+  border-bottom: 0.1px dashed rgb(96, 115, 138);
+}
+.icon {
+  font-size: 25px;
+  padding-right: 1rem;
+  margin: 0.5rem;
+  margin-top: 0px;
+}
+.scope {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 17px;
+  gap: 2.5rem;
+}
+.tieude {
+  margin-bottom: 30px;
+  color: blue;
+}
+.icon1 {
+  font-size: 35px;
+  padding-right: 1rem;
+  margin: 0.5rem;
+  margin-top: 0px;
+  color: rgb(101, 105, 220);
+}
+.icon2 {
+  font-size: 25px;
+  width: 55px;
+  height: 30px;
+  text-align: center;
+
+  color: #f4f4f4;
+
+  margin: 2rem;
+  margin-top: 0.5rem;
+  margin-left: 0.5rem;
+  border: 1px solid black;
+  background-color: rgb(39, 37, 37);
+  border-radius: 50%;
+}
+.in-out {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 0.5rem;
+}
+#title {
+  font-weight: bolder;
+  font-size: 20px;
+  padding-bottom: 1rem;
+}
+h1 {
+  font-size: 20px;
+  border-bottom: 0.1px solid rgb(189, 184, 184);
+}
+h2 {
+  font-size: 15px;
+  padding-bottom: 10px;
+}

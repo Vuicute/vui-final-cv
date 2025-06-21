@@ -1,0 +1,104 @@
+@media (max-width: 768px) {
+  .banner {
+    height: 190px;
+  }
+  .cv-bar {
+    display: none !important;
+  }
+  .avt {
+    display: none;
+  }
+
+  .cv-navbar {
+    display: block;
+    height: 200px;
+    padding: 2px;
+  }
+  .cv-navbar a:link,
+  a:visited {
+    display: block;
+    padding: 2px !important;
+    border: none;
+    text-align: left;
+  }
+  .cv-navbar,
+  a {
+    text-align: center;
+    padding: 5px 5px;
+    text-decoration: none;
+    font-size: 13px;
+    color: #7d7d7d;
+  }
+  /* Định dạng phần chứng chỉ trên mobile */
+  .chung_chi {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    gap: 30px;
+  }
+
+  /* Định dạng cho từng phần chứng chỉ */
+  .web,
+  .java,
+  .data {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    border-bottom: 1px solid #d6c08d;
+    border-left: 0;
+  }
+
+  /* Loại bỏ border-bottom cho phần tử cuối cùng */
+  .data {
+    border-bottom: none;
+  }
+
+  /* Đảm bảo hình ảnh không bị kéo giãn */
+  .web img,
+  .java img,
+  .data img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    object-fit: contain;
+    padding-right: 50px;
+    padding-left: 50px;
+  }
+  .banner img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    display: block;
+    z-index: 1;
+    transform: translate(0, -20%);
+  }
+
+  /* Định dạng phần text */
+  .text {
+    text-align: left;
+    width: 100%;
+    padding-left: 50px;
+  }
+  .du_an {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    gap: 30px;
+  }
+  #footer a:link {
+    margin: 5px;
+    font-size: 15px;
+  }
+  .lienhe a {
+    padding: 0px;
+    font-size: 15px;
+  }
+  .banner img {
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    object-fit: contain;
+  }
+}

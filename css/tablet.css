@@ -1,0 +1,51 @@
+@media (min-width: 768px) and (max-width: 992px) {
+  .cv-bar,
+  .avt {
+    display: none;
+  }
+  .banner {
+    height: 250px;
+  }
+  /* Định dạng phần chứng chỉ trên tablet */
+  .chung_chi {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 30px;
+    gap: 0px;
+  }
+
+  /* Định dạng cho từng phần chứng chỉ */
+  .web,
+  .java,
+  .data {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  /* Đảm bảo hình ảnh không bị kéo giãn */
+  .web img,
+  .java img,
+  .data img {
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    object-fit: contain;
+  }
+
+  /* Định dạng phần text */
+  .text {
+    text-align: left;
+    width: 100%;
+  }
+
+  /* Đảm bảo chứng chỉ cuối cùng hiển thị đúng */
+  .data {
+    grid-column: 1 / span 1; /* Chỉ chiếm 1 cột (nửa bên trái) */
+    position: relative;
+
+    margin-top: 20px; /* Tạo khoảng cách với phần trên */
+    padding-top: 40px; /* Tạo khoảng cách với border-top */
+  }
+}
